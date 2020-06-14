@@ -6,7 +6,7 @@ class Genre
 
   def initialize(name)
     @name = name
-    @@all? { |e|  }
+    @@all << self
   end
 
 end
